@@ -3,6 +3,8 @@
 ## Overview  
 This project explores **multimodal deep learning for emotion recognition**, integrating **speech and text features** using **Wav2Vec2, HuBERT, and RoBERTa**, along with handcrafted acoustic features. We evaluate **early vs. late fusion strategies** and analyze how **feature scaling and data partitioning impact model generalization**. The study is based on **RAVDESS and TESS datasets** and achieves **98.53% accuracy** on test data after applying optimal preprocessing techniques.  
 
+📄 **Final Project Paper:** [15.773 HODL Final Project](https://github.com/priscillaoclark/multimodal-emotion-recognition/blob/main/15_773_Final_Project.pdf)  
+
 ## Key Findings  
 ✅ **Feature Scaling Matters** – Improves early fusion models dramatically (**65.51% → 98.35%**).  
 ✅ **Multimodal vs. Unimodal** – **Text embeddings did not significantly boost accuracy** in neutral-content datasets.  
@@ -26,6 +28,6 @@ This project explores **multimodal deep learning for emotion recognition**, inte
 
 ### Installation  
 ```bash
-git clone https://github.com/your-repo-name/multimodal-emotion-recognition.git  
+git clone https://github.com/priscillaoclark/multimodal-emotion-recognition.git  
 cd multimodal-emotion-recognition  
 pip install -r requirements.txt  
