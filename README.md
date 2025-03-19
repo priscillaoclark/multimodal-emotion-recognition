@@ -24,10 +24,4 @@ This project explores multimodal deep learning for emotion recognition, integrat
 - PyTorch (for Wav2Vec2 & HuBERT)  
 - Hugging Face Transformers (for RoBERTa)  
 - Librosa (for audio processing)  
-- OpenAI Whisper (for speech-to-text)  
-
-### Installation  
-```bash
-git clone https://github.com/priscillaoclark/multimodal-emotion-recognition.git  
-cd multimodal-emotion-recognition  
-pip install -r requirements.txt  
+- OpenAI Whisper (for speech-to-text)
